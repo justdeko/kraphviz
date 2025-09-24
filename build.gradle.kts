@@ -54,7 +54,7 @@ kotlin {
   sourceSets {
     val commonMain by getting {
       dependencies {
-        implementation("com.github.justdeko:ktmpwasm:-e273fedbc8-1")
+        implementation("com.github.justdeko:ktmpwasm:-SNAPSHOT")
       }
     }
     val commonTest by getting { dependencies { implementation(kotlin("test")) } }
