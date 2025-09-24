@@ -11,7 +11,6 @@ version = "1.0.0"
 
 repositories {
   mavenCentral()
-  maven("https://repsy.io/mvn/yeicor/github-public")
 }
 
 kotlin {
@@ -54,7 +53,7 @@ kotlin {
   sourceSets {
     val commonMain by getting {
       dependencies {
-        implementation("com.github.yeicor:ktmpwasm:1.0.0") { isChanging = true }
+        implementation("com.github.justdeko:ktmpwasm:-SNAPSHOT") { isChanging = true }
       }
     }
     val commonTest by getting { dependencies { implementation(kotlin("test")) } }
